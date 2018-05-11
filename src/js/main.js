@@ -13,8 +13,19 @@ function onReady(e) {
   info(`Event: ${e.type}`, `Datestamp: ${this.date}`);
 }
 
+function changeImageFonts() {
+  const projectContent = document.querySelector('.project-content');
+  if (projectContent !== null) {
+    projectContent.querySelectorAll('img').forEach((image) => {
+      image.parentElement.className += ' project-content-image ';
+    });
+  }
+}
+
 ready(onReady, {
   date: new Date(),
 });
 
 ready(objectFitImages);
+
+ready(changeImageFonts);

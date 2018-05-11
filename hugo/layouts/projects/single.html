@@ -3,11 +3,13 @@
   <div class="row">
     {{partial "sidebar.html" . }}
     <main role="main" class="ml-sm-auto project-single">
-      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-4 mb-3 w-100 project-header">
+      <div class="d-flex justify-content-md-between justify-content-center flex-wrap flex-md-nowrap align-items-center pt-3 pb-4 mb-3 w-100 project-header">
         <div class="col-md-10 col-lg-8 offset-md-1 offset-lg-2 row">
           <div class="col-md-4">
             {{ if .Params.imageURL }}
-            <img src="{{.Params.imageURL}}" alt="{{.Title}}" class="d-block project-header-image" /> {{ end }}
+              <img src="{{.Params.imageURL}}" alt="{{.Title}}" class="d-block project-header-image mx-auto mx-md-0" />
+             {{ end }}
+
           </div>
           <div class="col-md-8 justify-content-center">
             <div class="d-flex flex-column justify-content-center justify-content-md-between flex-wrap flex-md-nowrap">
@@ -17,8 +19,8 @@
               </div>
               <h2 class="project-header-subtitle h3 mt-4">{{ .Params.sortDescription }}</h2>
               <div class="d-flex flex-column flex-md-row justify-content-md-between mt-2">
-                <p class="h5 text-muted mr-md-3">{{ .Params.descriptionLeft}}</p>
-                <p class="h5 text-muted ml-md-3">{{ .Params.descriptionRight}}</p>
+                <p class="project-header-description text-muted mr-md-3">{{ .Params.descriptionLeft}}</p>
+                <p class="project-header-description text-muted ml-md-3">{{ .Params.descriptionRight}}</p>
               </div>
             </div>
           </div>

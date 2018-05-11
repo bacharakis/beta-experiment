@@ -25,8 +25,8 @@ menu: "projects"
   - ![nodejs](/assets/images/s3.png) Amazon S3
   - ![nodejs](/assets/images/mariadb.png) MariaDB
   - ![nodejs](/assets/images/ffmpeg.png) ffmpeg
-  - ![nodejs](/assets/images/yarn.png) Yarn
   - ![nodejs](/assets/images/docker.png) Docker
+  - ![nodejs](/assets/images/yarn.png) Yarn
 
 - Contribute
 
