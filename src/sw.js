@@ -1,8 +1,8 @@
 /* eslint-disable no-undef */
-importScripts('workbox-v3.0.0/workbox-sw.js');
+importScripts('workbox-v3.2.0/workbox-sw.js');
 
 workbox.setConfig({
-  modulePathPrefix: 'workbox-v3.0.0',
+  modulePathPrefix: 'workbox-v3.2.0',
 });
 
 workbox.skipWaiting();
