@@ -1,10 +1,15 @@
 @import './_projects';
 @import 'bootstrap/dist/css/bootstrap.min.css';
+:root {
+  --color-text: #000;
+  --color-background: #fff;
+  --font-system-ui: "Open Sans", Arial, sans-serif;
+}
 
 body {
-  background-color: #fff;
-  color: #000;
-  font-family: "Open Sans", Arial, sans-serif,
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var( --font-system-ui);
 }
 
 /*
@@ -174,4 +179,14 @@ a.navbar-brand {
 
 p {
   font-size: 1.2rem;
+}
+
+.header-title{
+  padding-top: 1em;
+  font-size: 3rem;
+}
+
+.header-link{
+  align-self: flex-end;
+  margin-bottom: .9rem;
 }
