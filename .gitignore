@@ -13,6 +13,9 @@ Thumbs.db
 node_modules
 bower_components
 
+# Build #
+#########
+public
 
 # Sublime projects #
 ####################
