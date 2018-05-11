@@ -44,7 +44,6 @@
   align-items: center;
   margin: 1em;
   align-items: flex-start;
-  justify-content: center;
 }
 
 .project-content>ul>li>ul>li>p:first-child {
