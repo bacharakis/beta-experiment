@@ -17,9 +17,10 @@ bower_components
 #########
 public
 
-# Sublime projects #
+# Editors  #
 ####################
 *sublime*
+.vscode
 
 # Caches #
 ##########
