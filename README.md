@@ -1,8 +1,6 @@
-# blaupause
+# Beta Experiment
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/fspoettel/blaupause.svg)](https://greenkeeper.io/)
-
-> blaupause is a [hugo](https://gohugo.io) starter kit based on npm scripts, webpack and postcss. It helps with setting up a modern web development stack and adds offline support via a service worker.
+> Based on [blaupause](https://github.com/fspoettel/blaupause), a [hugo](https://gohugo.io) starter kit based on npm scripts, webpack and postcss. It helps with setting up a modern web development stack and adds offline support via a service worker.
 
 ## In the box
 
@@ -97,7 +95,7 @@ The service worker in `src` provides basic offline capabilities and follows a `n
 
 ## Deploying to Netlify
 
-Netlify is the easiest deploy option for blaupause. To get started, you have to:
+Netlify is the easiest deploy option for this project. To get started, you have to:
 
 * Push your clone to your own GitHub repository.
 * [Create a new site on Netlify](https://app.netlify.com/start) and link the repository.
@@ -106,7 +104,7 @@ Now Netlify will build and deploy your site whenever you push to git.
 
 You can also click this button:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/fspoettel/blaupause)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/alexdor/beta-experiment)
 
 It is also possible to roll your own deploy with CircleCI and AWS as an alternative.
 
