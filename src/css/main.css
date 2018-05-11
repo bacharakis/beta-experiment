@@ -6,6 +6,10 @@
   --font-system-ui: "Open Sans", Arial, sans-serif;
 }
 
+html {
+  font-size: 1rem;
+}
+
 body {
   background-color: var(--color-background);
   color: var(--color-text);
@@ -178,15 +182,15 @@ a.navbar-brand {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.05rem;
 }
 
-.header-title{
+.header-title {
   padding-top: 1em;
   font-size: 3rem;
 }
 
-.header-link{
+.header-link {
   align-self: flex-end;
   margin-bottom: .9rem;
 }
