@@ -24,6 +24,7 @@
   border-top: #F8B83E 2px solid;
   margin-top: 1.5em;
   padding-top: 1em;
+  padding-left: 1em;
 }
 
 .project-content>ul>li>ul>li>img {
@@ -32,7 +33,6 @@
   display: table;
   object-fit: cover;
   overflow: hidden;
-  margin: auto;
   max-height: 40px;
 }
 
@@ -43,6 +43,8 @@
   margin: auto;
   align-items: center;
   margin: 1em;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .project-content>ul>li>ul>li>p:first-child {
