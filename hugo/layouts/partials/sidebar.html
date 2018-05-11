@@ -1,0 +1,25 @@
+<!-- sidebar start -->
+<nav class="col-md-1 d-none d-md-block bg-light sidebar">
+  <div class="sidebar-sticky">
+
+    <ul class="nav flex-column align-items-center">
+      <li class="nav-item">
+        <a href="/" class="nav-link">
+          <i class="icono-arrow-right"></i>
+        </a>
+
+      </li>
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.projects }}
+
+       <li class="nav-item {{if $currentPage.IsMenuCurrent "projects" . }} active{{end}}">
+<a class="nav-link" href="{{ .URL }}">
+<img class="img-fluid" src="{{ .Page.Param "thumbnail" }}" alt="{{ .Title }}">
+        </a>
+</li> {{ end }}
+
+
+    </ul>
+  </div>
+
+</nav>
