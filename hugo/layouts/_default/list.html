@@ -2,7 +2,10 @@
 <main class="ml-sm-auto listing mt-5" role="main">
   <div class="container">
     <div class="row">
-      {{ .Content }} {{ range .Pages }}
+      <h1 class="font-weight-light mb-2 w-100">Find An Activity</h1>
+      <p class="font-weight-light mb-4">We want to connect your Club to the open source activities and workshops that will help your club develop new skills
+        and find open source projects to contribute to. Find an activity below and get started!</p>
+      <br /> {{ .Content }} {{ range .Pages }}
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <a class="listing-wrapper-link w-100" href="{{.URL}}">
           <div class="d-flex flex-column justify-content-around align-items-center listing-item mb-2 p-md-2 m-md-2 w-100">
