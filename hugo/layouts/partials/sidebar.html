@@ -4,19 +4,18 @@
 
     <ul class="nav flex-column align-items-center">
       <li class="nav-item">
-        <a href="/" class="nav-link">
+        <a href="#" onclick="history.back()" class="nav-link">
           <i class="icono-arrow-right"></i>
         </a>
 
       </li>
-      {{ $currentPage := . }}
-      {{ range .Site.Menus.projects }}
+      {{ $currentPage := . }} {{ range .Site.Menus.projects }}
 
-       <li class="nav-item {{if $currentPage.IsMenuCurrent "projects" . }} active{{end}}">
-<a class="nav-link" href="{{ .URL }}">
-<img class="img-fluid" src="{{ .Page.Param "thumbnail" }}" alt="{{ .Title }}">
+      <li class="nav-item {{if $currentPage.IsMenuCurrent "projects" . }} active{{end}}">
+        <a class="nav-link" href="{{ .URL }}">
+          <img class="img-fluid" src="{{ .Page.Param "thumbnail" }}" alt="{{ .Title }}">
         </a>
-</li> {{ end }}
+      </li> {{ end }}
 
 
     </ul>
