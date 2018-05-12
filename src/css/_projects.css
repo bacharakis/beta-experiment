@@ -34,8 +34,7 @@
 .project-content>ul>li>ul>li>img {
   max-width: 100%;
   height: 100%;
-  display: table;
-  object-fit: cover;
+  /* object-fit: cover; */
   overflow: hidden;
   max-height: 40px;
 }
