@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
 body {
@@ -83,7 +83,11 @@ body {
   padding-top: 68px;
   padding-left: 0;
   padding-right: 0;
-  /* Space for fixed navbar */
+}
+
+[role="main"].listing {
+  background: #F9F9F9;
+  height: 100vh;
 }
 
 /*
@@ -193,4 +197,23 @@ p {
 .header-link {
   align-self: flex-end;
   margin-bottom: .9rem;
+}
+
+.listing-item {
+  background-color: #FFF;
+  box-shadow: 0 .1em #E0E0E0;
+}
+
+@media only screen and (min-width: 768px) {
+  .listing-item {
+    box-shadow: .5em .5em #E0E0E0;
+  }
+  html {
+    font-size: 1rem;
+  }
+}
+
+a.listing-wrapper-link,
+a.listing-wrapper-link:hover {
+  text-decoration: none;
 }

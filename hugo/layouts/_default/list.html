@@ -1,6 +1,24 @@
 {{ define "main" }}
-<main>
-  {{.Content}}
-  {{ range .Pages }}{{ .Title }}{{ end }}
+<main class="ml-sm-auto listing mt-5" role="main">
+  <div class="container">
+    <div class="row">
+      {{ .Content }} {{ range .Pages }}
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <a class="listing-wrapper-link w-100" href="{{.URL}}">
+          <div class="d-flex flex-column justify-content-around align-items-center listing-item mb-2 p-md-2 m-md-2 w-100">
+            <div class="d-flex align-items-center justify-content-center mt-3">
+              <div class="w-25">
+                <img class="img-fluid" src="{{ .Params.thumbnail}}" alt="{{.Title}}">
+              </div>
+              <h4 class="ml-3 mr-4 mb-0 font-weight-light"> {{ .Title }} </h4>
+            </div>
+            <p class="text-muted font-weight-light mt-3 align-self-start"> {{ cond (isset .Params "listingdescription" ) .Params.listingDescription .Params.sortDescription }}</p>
+            <a href="{{.URL}}" class="align-self-start mb-3 w-100">{{ cond (isset .Params "calltoaction" ) .Params.callToAction "Find out more"}} </a>
+          </div>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
 </main>
 {{ end }}
