@@ -25,9 +25,9 @@ menu: "projects"
 
   * ![nodejs](/assets/images/nodejs.png) Nodejs
   * ![nodejs](/assets/images/npm.png) NPM
-  * ![nodejs](/assets/images/s3.png) React
-  * ![nodejs](/assets/images/mariadb.png) Redux
-  * ![nodejs](/assets/images/ffmpeg.png) Javascript
+  * ![nodejs](/assets/images/react.png) React
+  * ![nodejs](/assets/images/redux.png) Redux
+  * ![nodejs](/assets/images/js.jpg) Javascript
 
 * Contribute
 
