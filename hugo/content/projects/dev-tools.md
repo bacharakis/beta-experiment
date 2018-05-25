@@ -16,30 +16,26 @@ menu: "projects"
 
 * Setup dev time
 
-  * Setting up your development environment:
+  * Setting up your development environment: 5 minutes
 
-        5'
 
-  * [Instructions](https://voice.mozilla.org/en)
+  * [Instructions](http://firefox-dev.tools/debugger.html/CONTRIBUTING.html#getting-started-runner)
 
 * Technologies
 
   * ![nodejs](/assets/images/nodejs.png) Nodejs
-  * ![nodejs](/assets/images/npm.png) Npm
-  * ![nodejs](/assets/images/s3.png) Amazon S3
-  * ![nodejs](/assets/images/mariadb.png) MariaDB
-  * ![nodejs](/assets/images/ffmpeg.png) ffmpeg
-  * ![nodejs](/assets/images/docker.png) Docker
-  * ![nodejs](/assets/images/yarn.png) Yarn
+  * ![nodejs](/assets/images/npm.png) NPM
+  * ![nodejs](/assets/images/s3.png) React
+  * ![nodejs](/assets/images/mariadb.png) Redux
+  * ![nodejs](/assets/images/ffmpeg.png) Javascript
 
 * Contribute
 
-  * [Contribute to Common Voice](https://voice.mozilla.org/en)
-
-  * [Find easy tasks to begin with](https://voice.mozilla.org/en)
+  * [Contribute to Debugger](http://firefox-dev.tools/debugger.html/CONTRIBUTING.html#getting-started-runner)
 
 * Additional resources
 
-  * Discourse
+  * Say hello in slack or in the #devtools-html channel on irc.mozilla.org
 
-  * FAQ
+
+  * or Join us on [Slack](https://devtools-html-slack.herokuapp.com/)
