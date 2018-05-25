@@ -1,8 +1,8 @@
 ---
 title: "Firefox Debugger"
 date: 2018-05-09T20:47:18+03:00
-imageURL: "/assets/images/common-voice.png"
-thumbnail: "/assets/images/common-voice-thumb.png"
+imageURL: "/assets/images/debugger.png"
+thumbnail: "/assets/images/debugger.png"
 link: "http://firefox-dev.tools/debugger.html/"
 sortDescription: "debugger.html is a hackable debugger for modern times, built from the ground up using React and Redux. It is designed to be approachable, yet powerful."
 descriptionLeft: "Mozilla created this debugger for use in the Firefox Developer Tools. And we've purposely created this project in GitHub,
