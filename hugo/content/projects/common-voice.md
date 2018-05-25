@@ -8,7 +8,7 @@ sortDescription: "The Common Voice project is Mozilla's initiative to help teach
 descriptionLeft: "Voice is natural, voice is human. That’s why we’re fascinated with creating usable voice technology for our machines. But to create voice systems, an extremely large amount of voice data is required."
 descriptionRight: "Most of the data used by large companies isn’t available to the majority of people. We think that stifles innovation. So we’ve launched Project Common Voice, a project to help make voice recognition open to everyone."
 callToAction: "Learn More..." # Find out more by default
-listingDescription: "The Common Voice project is Mozilla's initiative to help teach machines" # The description of the project for the project listing, if no description is provided the content of the sortDescription will be used
+listingDescription: "The Common Voice project is Mozilla's initiative to help teach machines..." # The description of the project for the project listing, if no description is provided the content of the sortDescription will be used
 menu: "projects"
 ---
 
